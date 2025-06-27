@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+/* applying centering to body since we're only using one page */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+}
+
+.display {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    border: 2px solid green;
+    text-align: right;
+    height: 35px;
+    width: 346px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding-right: 2px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    gap: 3px;
+    padding: 37px;
+}
+
+button {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    width: 2.7em;
+}
+
+#plus {
+    display: flex;
+    flex-grow: 1;
+    width: 3.5em;
+}
+
+#backspace {
+    display: flex;
+    flex-grow: 1;
+    width: 3.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hugs {
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width: 100%;
+}
